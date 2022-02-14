@@ -14,8 +14,8 @@ description = """Trello Java Wrapper"""
 sourceSets.test.scala.srcDir "src/test/java"
 sourceSets.test.java.srcDirs = []
 
-sourceCompatibility = 11
-targetCompatibility = 11
+sourceCompatibility = 8
+targetCompatibility = 8
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'
 }

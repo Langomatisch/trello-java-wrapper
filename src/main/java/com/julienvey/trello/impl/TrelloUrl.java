@@ -59,7 +59,7 @@ public class TrelloUrl {
     public static final String CREATE_CHECKLIST = "/checklists?";
     public static final String ADD_CHECKITEMS_TO_CHECKLIST = "/checklists/{checkListId}/checkitems?";
 
-    public static final String CREATE_CARD = "/cards?pos=top&";
+    public static final String CREATE_CARD = "/cards?pos=bottom&";
     public static final String GET_MEMBER = "/members/{username}?";
     public static final String GET_MEMBER_BOARDS = "/members/{userId}/boards?";
     public static final String GET_MEMBER_ACTIONS = "/members/{userId}/actions?";
